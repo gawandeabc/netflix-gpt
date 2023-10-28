@@ -1,8 +1,18 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import Header from './Header'
+import { checkValidData } from '../utils/validate';
 
 const Login = () => {
     const [isSignInForm, setIsSignInForm] = useState(true);
+    const [errorMessage, setErrorMessage] = useState(null)
+    const email = useRef(null);
+    const password = useRef(null);
+    const handleButtonClick =()=>{
+        //validate the form data
+        const message = checkValidData(email.current.value,password.current.value);
+        setErrorMessage(message);
+        // sign in/up
+    }
     const  toggleSignInForm = () => {
         setIsSignInForm(!isSignInForm)
     }
@@ -13,7 +23,7 @@ const Login = () => {
        <img src="https://assets.nflxext.com/ffe/siteui/vlv3/dace47b4-a5cb-4368-80fe-c26f3e77d540/f5b52435-458f-498f-9d1d-ccd4f1af9913/IN-en-20231023-popsignuptwoweeks-perspective_alpha_website_large.jpg"
         alt="logo" />
        </div>
-        <form className='text-white absolute p-12 bg-black w-3/12 my-36 mx-auto right-0 left-0 rounded-lg bg-opacity-80'>
+        <form onSubmit={(e)=>e.preventDefault() } className='text-white absolute p-12 bg-black w-3/12 my-36 mx-auto right-0 left-0 rounded-lg bg-opacity-80'>
             <h1 className='font-bold text-3xl py-4'>{isSignInForm ? "Sign In": "Sign Up"}</h1>
             
             {!isSignInForm && <input 
@@ -21,14 +31,18 @@ const Login = () => {
             className='p-4 my-4 w-full bg-gray-600'/>
             }
             <input 
+            ref={email}
             type="text" placeholder='Email Address' 
             className='p-4 my-4 w-full bg-gray-600'/>
             
             <input 
+            ref={password}
             type="Password" placeholder='Password' 
             className='p-4 my-4 w-full bg-gray-600'/>
+            
+            <p className='text-red-500 font-bold text-lg py-2'>{errorMessage}</p>
 
-            <button 
+            <button onClick={handleButtonClick}
             className='p-4 my-6 bg-red-600 w-full rounded-lg'>
             {isSignInForm ? "Sign In": "Sign Up"}</button>
             <p className='py-4 cursor-pointer' onClick={toggleSignInForm}> {isSignInForm ? "New to Netflix? Sign up Now": "Already registered? Sign In now"}</p>

@@ -3,8 +3,12 @@
 - Configured Tailwind CSS 
 - Add Routing (npm i -D react-router-dom)
 - Header
+- Routing
 - Login Form
 - sign Up form
+- form validation
+- useRef hook
+
 
 # Features
 -Login/Sign up screen
