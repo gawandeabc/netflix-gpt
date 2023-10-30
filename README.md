@@ -44,6 +44,13 @@
     - created user store with userSlice
     - after storing user data redirected to browse page
 
+- implemented sign out
+- updated profile
+- added photo
+
+
+- Fetch movies from TMDB
+
 
 # Features
 -Login/Sign up screen
