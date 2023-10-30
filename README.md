@@ -38,6 +38,12 @@
     - admin@gmail.com
     - Admin@123
 
+- Redux to store USER DATA
+    - npm i -D @reduxjs/toolkit
+    - npm i react-redux
+    - created user store with userSlice
+    - after storing user data redirected to browse page
+
 
 # Features
 -Login/Sign up screen
