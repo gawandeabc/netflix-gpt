@@ -47,7 +47,11 @@
 - implemented sign out
 - updated profile
 - added photo
-
+- bug fix: sign up user display name & profile picture update
+- bug fix: redirect users to right urls based on user is logged in / logged out
+- unsubscribed to the onAuthStateChnaged callback
+- Added hardcoded values to the constants file
+- Completed 32 mins in netflix 2nd video
 
 - Fetch movies from TMDB
 
