@@ -51,10 +51,15 @@
 - bug fix: redirect users to right urls based on user is logged in / logged out
 - unsubscribed to the onAuthStateChnaged callback
 - Added hardcoded values to the constants file
-- Completed 32 mins in netflix 2nd video
+
 
 - Fetch movies from TMDB
+    - register for TMDB api
+    - create an app on TMDB & get access token
+    - check documentation , now playing movie api 
 
+
+- Completed 2:11 mins in netflix video EP15
 
 # Features
 -Login/Sign up screen
