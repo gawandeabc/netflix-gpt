@@ -57,9 +57,21 @@
     - register for TMDB api
     - create an app on TMDB & get access token
     - check documentation , now playing movie api 
+    - custom hook for now playing movie
+    - create movieSlice
+    - update store with movies data
+    - plannig main & secondory container
+    - fetch data for trailer video
+    - update store with trailer video
+    - Embedded the youtube video & make it autoplay & mute
+    - secondory container with Movie List
+    - developed Movie card
+    - TMDB image CDN url
+    - browse page enhancement
+    - Custom hooks for pupolar, top rated & Upcoming movies
 
 
-- Completed 2:11 mins in netflix video EP15
+- Completed 2:34 mins in netflix video EP15
 
 # Features
 -Login/Sign up screen
