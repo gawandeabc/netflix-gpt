@@ -69,9 +69,13 @@
     - TMDB image CDN url
     - browse page enhancement
     - Custom hooks for pupolar, top rated & Upcoming movies
+- GPT search feature
+    - gpt search component
+    - Gpt Slice store
+    - Toggle gpt search & dashboard 
 
 
-- Completed 2:34 mins in netflix video EP15
+- Completed netflix video EP16 - 25 mins
 
 # Features
 -Login/Sign up screen
