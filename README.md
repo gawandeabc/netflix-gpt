@@ -73,6 +73,10 @@
     - gpt search component
     - Gpt Slice store
     - Toggle gpt search & dashboard 
+    - GPT search page
+    - GPT search bar
+    - multi-language feature in our app
+    - Integrate GPT APIs
 
 
 - Completed netflix video EP16 - 25 mins
