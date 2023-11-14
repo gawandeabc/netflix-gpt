@@ -77,9 +77,13 @@
     - GPT search bar
     - multi-language feature in our app
     - Integrate GPT APIs
+    - generated open ai api key
+    - getting movie suggestions from open ai api
+    - designed search movie bar
+    - designed movie suggestion panal
 
 
-- Completed netflix video EP16 - 25 mins
+- Completed netflix video EP16 - 2:59 hrs
 
 # Features
 -Login/Sign up screen
