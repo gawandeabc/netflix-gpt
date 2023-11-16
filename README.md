@@ -83,7 +83,7 @@
     - designed movie suggestion panal
 
 
-- Completed netflix video EP16 - 2:59 hrs
+- Completed netflix video EP16 - 3:35 hrs
 
 # Features
 -Login/Sign up screen
