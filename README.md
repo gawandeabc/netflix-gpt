@@ -81,6 +81,14 @@
     - getting movie suggestions from open ai api
     - designed search movie bar
     - designed movie suggestion panal
+    - created gpt slice and added data
+    - reused MoviesList component to make movie suggestion
+    - Memoization
+    - Added .env file
+    - Added .env file to gitignore
+    
+
+
 
 
 - Completed netflix video EP16 - 3:35 hrs
